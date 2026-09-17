@@ -1,0 +1,66 @@
+public class Condutor {
+
+    private String nome;
+
+
+    public Condutor(String nome) {
+
+        this.nome = nome;
+    }
+
+
+    public String getNome() {
+
+        return nome;
+    }
+
+
+    // ==========================================
+    // AÇÕES DO CONDUTOR
+    // ==========================================
+
+    public void ligarCarro(Carro carro) {
+
+        System.out.println(nome + " tentou ligar o carro.");
+
+        carro.ligar();
+    }
+
+
+    public void desligarCarro(Carro carro) {
+
+        System.out.println(nome + " tentou desligar o carro.");
+
+        carro.desligar();
+    }
+
+
+    public void acelerar(Carro carro, double quantidade) {
+
+        System.out.println(
+                nome + " acelerou o carro."
+        );
+
+        carro.acelerar(quantidade);
+    }
+
+
+    public void travar(Carro carro, double quantidade) {
+
+        System.out.println(
+                nome + " travou o carro."
+        );
+
+        carro.travar(quantidade);
+    }
+
+
+    public void buzinar(Carro carro) {
+
+        System.out.println(
+                nome + " buzinou."
+        );
+
+        carro.buzinar();
+    }
+}
