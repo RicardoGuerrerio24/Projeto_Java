@@ -1,4 +1,4 @@
-package matriculas;
+package com.matriculas;
 
 public class Matricula {
 
@@ -8,9 +8,10 @@ public class Matricula {
     private int anoEmissao;
     private String tamanho;
     private String formato;
+    private String tipoVeiculo;
 
     public Matricula(String matricula, String cor, String pais, int anoEmissao,
-                     String tamanho, String formato) {
+                     String tamanho, String formato, String tipoVeiculo) {
 
         this.matricula = matricula;
         this.cor = cor;
@@ -18,6 +19,7 @@ public class Matricula {
         this.anoEmissao = anoEmissao;
         this.tamanho = tamanho;
         this.formato = formato;
+        this.tipoVeiculo = tipoVeiculo;
     }
 
     public String getMatricula() {
@@ -68,13 +70,22 @@ public class Matricula {
         this.formato = formato;
     }
 
+    public String getTipoVeiculo() {
+        return tipoVeiculo;
+    }
+
+    public void setTipoVeiculo(String tipoVeiculo) {
+        this.tipoVeiculo = tipoVeiculo;
+    }
+
     @Override
     public String toString() {
         return "Matrícula: " + matricula +
-               ", Cor: " + cor +
-               ", País: " + pais +
-               ", Ano de emissão: " + anoEmissao +
-               ", Tamanho: " + tamanho +
-               ", Formato: " + formato;
+                ", Cor: " + cor +
+                ", País: " + pais +
+                ", Ano de emissão: " + anoEmissao +
+                ", Tamanho: " + tamanho +
+                ", Formato: " + formato +
+                ", Tipo de veículo: " + tipoVeiculo;
     }
 }
