@@ -1,4 +1,4 @@
-package matriculas;
+package com.matriculas;
 
 public class Main {
 
@@ -10,7 +10,8 @@ public class Main {
                 "Portugal",
                 2025,
                 "520x110 mm",
-                "Retangular"
+                "Retangular",
+                "Carro"
         );
 
         Matricula m2 = new Matricula(
@@ -19,7 +20,8 @@ public class Main {
                 "Portugal",
                 2024,
                 "520x110 mm",
-                "Retangular"
+                "Retangular",
+                "Mota"
         );
 
         System.out.println(m1);
