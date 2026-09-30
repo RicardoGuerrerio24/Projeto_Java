@@ -1,0 +1,14 @@
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\control\GestorGaragem.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\Main.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\model\Barco.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\model\Carro.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\model\Garagem.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\model\Matricula.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\model\Mota.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\model\Veiculo.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\repository\GaragemRepository.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\strategy\MovimentoBarco.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\strategy\MovimentoCarro.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\strategy\MovimentoMota.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\strategy\MovimentoStrategy.java
+C:\Users\ba2708\Desktop\projeto_garagem_mvc_strategy\src\view\GaragemView.java

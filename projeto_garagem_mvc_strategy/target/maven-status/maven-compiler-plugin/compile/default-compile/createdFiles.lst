@@ -1,0 +1,14 @@
+model\Barco.class
+strategy\MovimentoBarco.class
+strategy\MovimentoMota.class
+model\Veiculo.class
+strategy\MovimentoCarro.class
+model\Carro.class
+strategy\MovimentoStrategy.class
+control\GestorGaragem.class
+model\Garagem.class
+repository\GaragemRepository.class
+model\Mota.class
+model\Matricula.class
+Main.class
+view\GaragemView.class
